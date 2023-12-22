@@ -56,19 +56,19 @@ export default function Loginscreen() {
         <View className="flex-row justify-center space-x-12">
           <TouchableOpacity className="p-2 bg-gray-100 rounded-2xl">
             <Image
-              source={require("../assets/icons/google.png")}
+              source={require("../assets/icons/Google.png")}
               className="w-10 h-10"
             />
           </TouchableOpacity>
           <TouchableOpacity className="p-2 bg-gray-100 rounded-2xl">
             <Image
-              source={require("../assets/icons/apple.png")}
+              source={require("../assets/icons/Apple.png")}
               className="w-10 h-10"
             />
           </TouchableOpacity>
           <TouchableOpacity className="p-2 bg-gray-100 rounded-2xl">
             <Image
-              source={require("../assets/icons/facebook.png")}
+              source={require("../assets/icons/Facebook.png")}
               className="w-10 h-10"
             />
           </TouchableOpacity>

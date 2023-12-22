@@ -42,7 +42,17 @@ export default function HomeScreen() {
             ...tw`shadow-md rounded-xl bg-yellow-400 px-15 py-5 text-lg h-20`,
           }}
         >
-          <Text style={{ color: "black", fontWeight: "bold", fontSize: 30 }}>
+          <Text
+            style={{
+              width: 120,
+              height: 40,
+              borderRadius: 55,
+              background: "#F0CE24",
+              color: "black",
+              fontWeight: "bold",
+              fontSize: 30,
+            }}
+          >
             Sign Up
           </Text>
         </TouchableOpacity>
@@ -68,7 +78,7 @@ export default function HomeScreen() {
         <TouchableOpacity onPress={() => navigation.navigate("Login")}>
           <Text
             style={{
-              ...tw` px-15 py-5 text-lg h-20 mb-2`,
+              ...tw` px-15 py-5 text-lg h-20 mb-1`,
             }}
           >
             Login
